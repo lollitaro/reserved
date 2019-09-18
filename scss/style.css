@@ -553,13 +553,13 @@ header {
   padding: 0; }
   @media (max-width: 415px) {
     .mobile-navi {
-      top: 25%; } }
+      top: 27%; } }
   @media (max-width: 376px) {
     .mobile-navi {
-      top: 23%; } }
+      top: 27%; } }
   @media (max-width: 360px) {
     .mobile-navi {
-      top: 22%; } }
+      top: 27%; } }
   .mobile-navi .close-btn,
   .mobile-navi .open-btn {
     position: absolute;
