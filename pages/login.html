@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Login</title>
+	<link rel="stylesheet" href="../scss/style.css">
+	<link rel="stylesheet" href="../css/animate.min.css">
+</head>
+<body>
+	<section id="scroll"></section>
+	<div class="wrapper wow slideInUp" data-wow-duration="1.5s">
+		<header>
+			<div class="top-line">
+				<a href="../index.html" class="logo">Reserved</a>
+				<div class="right-menu">
+					<a href="" class="subscribe">Login</a>
+					<a href="" class="wish-list"><img src="../img/heart.svg" alt=""></a>
+					<a href="" class="shopping-cart"><img src="../img/shopping-bag.svg" alt=""><sup>( 4 )</sup></a>
+				</div>
+			</div>
+			<div class="top-forms">
+				<form class="search-form">
+					<input type="text" class="search-field" placeholder="Search..."><span></span>
+					<button class="search"><img src="../img/search.svg" alt=""></button>
+				</form>
+				<span>Hello, Alina! <a href="">( Log out )</a></span>
+				<form class="register-form">
+					<input type="email" placeholder="Email">
+					<input type="password" placeholder="Password">
+					<button class="sign-in">Sign In</button>
+					<p>Don't have an account?</p><a href="login.html">Register</a>
+				</form>
+			</div>
+			<div class="top-navi wow slideInLeft" data-wow-delay="1.5s">
+				<ul>
+					<li><a href="catalog.html" class="link">Clothing</a></li>
+					<li><a href="" class="link">Shoes</a></li>
+					<li><a href="" class="link">Handbags</a></li>
+					<li><a href="" class="link">Accessories</a></li>
+					<li><a href="" class="link">Sale</a></li>
+					<li><a href="" class="link">New Arrivals</a></li>
+					<li><a href="" class="link">Help</a></li>
+					<li><a href="" class="link">Contact</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<div class="mobile-navi">
+			<button class="open-btn"><img src="../img/hamburger-icon.svg" alt="">MENU</button>
+			<button class="close-btn"><img src="../img/hamburger-close.svg" alt=""></button>
+			<div class="mobile-links">
+				<ul>
+					<li><a href="catalog.html" class="link">Clothing <img src="../img/next-arrow.png" alt=""></a></li>
+					<li><a href="" class="link">Shoes <img src="../img/next-arrow.png" alt=""></a></li>
+					<li><a href="" class="link">Handbags <img src="../img/next-arrow.png" alt=""></a></li>
+					<li><a href="" class="link">Accessories <img src="../img/next-arrow.png" alt=""></a></li>
+					<li><a href="" class="link">Sale <img src="../img/next-arrow.png" alt=""></a></li>
+					<li><a href="" class="link">Lookbook <img src="../img/next-arrow.png" alt=""></a></li>
+					<li><a href="" class="link">Blog <img src="../img/next-arrow.png" alt=""></a></li>
+					<li><a href="" class="link">New Arrivals <img src="../img/next-arrow.png" alt=""></a></li>
+					<li><a href="" class="link">Help <img src="../img/next-arrow.png" alt=""></a></li>
+					<li><a href="" class="link">Contact <img src="../img/next-arrow.png" alt=""></a></li>
+				</ul>
+			</div>
+		</div>
+
+
+	<div class="signup-modal wow rollIn" data-wow-delay="3s">
+		<div class="top-buttons">
+			<button data-tab="tab1" class="active">Create Account</button>
+			<button data-tab="tab2">Sign In</button>
+		</div>
+		<div class="tabs-content">
+			<div data-content="tab1" class="show">
+				<form action="">
+					<p>Create an account and get 10% off new collection garments*<br>
+					To discover even more, tell us a little more about yourself.</p>
+					<input class="long-btn" type="text" required placeholder="First Name">
+					<input class="long-btn" type="text" required placeholder="Last Name">
+
+					<p>Enter an e-mail and password to access your account wherever and whenever you like. </p>
+					<input class="long-btn" type="email" required placeholder="Email">
+					<input class="long-btn" type="password" required placeholder="Password">
+
+					<p>Add your telephone number to track your orders.</p>
+					<input class="long-btn" type="tel" required placeholder="Mobile">
+
+					<p>Complete the following details to make your purchases much quicker.</p>
+					<select required name="" id="" class="select">
+						<option value="Austria">Austria</option>
+						<option value="Belgia">Belgia</option>
+						<option value="Switzerland">Sweden</option>
+						<option value="Turkey">Turkey</option>
+						<option value="USA">USA</option>
+						<option value="Ukraine">Ukraine</option>
+						<option selected value="United Kingdom">United Kingdom</option>
+					</select>
+					<input class="long-btn" type="text" required placeholder="Postcode">
+
+					<p>Select the category that interests you for a personalised experience.</p>
+					<div class="radio-btn">
+					  <label>
+					    <input type="radio" class="option-input" name="radio" checked/>
+					    Female
+					  </label>
+					  <label>
+					    <input type="radio" class="option-input" name="radio"/>
+					    Male
+					  </label>
+					</div>
+
+					<p>*To enjoy a discount of 10%, check the box and stay up to date.</p>
+					<button class="submit red">Create account</button>
+				</form>
+			</div>
+			<div data-content="tab2">
+				<form action="">
+					<input class="long-btn" type="email" required placeholder="Email">
+					<input class="long-btn" type="password" required placeholder="Password">
+					<button class="submit red">Sign In</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<footer>
+			<div class="links wow bounceInDown" data-wow-delay="1s">
+				<div>
+					<p>Quick Links</p>
+					<ul>
+						<li><a href="">Store locator</a></li>
+						<li><a href="">Gift cards</a></li>
+						<li><a href="">Size guide</a></li>
+						<li><a href="">About us</a></li>
+						<li><a href="">Support</a></li>
+					</ul>
+				</div>
+				<div>
+					<p>Customer Care</p>
+					<ul>
+						<li><a href="">Track my order</a></li>
+						<li><a href="">Return policy</a></li>
+						<li><a href="">Shipping & delivery</a></li>
+						<li><a href="">Contact us</a></li>
+						<li><a href="">Careers</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-nav wow bounceInDown" data-wow-delay="1.5s">
+				<div>
+					<a href="">Clothing</a>
+					<a href="">Shoes</a>
+					<a href="">Lookbook</a>
+					<a href="">Sale</a>
+					<a href="">Blog</a>
+				</div>
+				<div class="subscribe">
+					<p>Subscribe to news</p>
+					<input type="email" placeholder="Email Adrress...">
+					<button>Submit</button>
+				</div>                                
+			</div>
+			<div class="contact wow bounceInDown" data-wow-delay="2s">
+				<div>
+					<p>Contact Us</p>
+					<p>San Francisco, California<br> 
+					400 Castro St, San Francisco,<br> 
+					CA (+1) 686-868-9999</p>
+				</div>
+				<div>
+					<a href=""><img src="../img/facebook.png" alt=""></a>
+					<a href=""><img src="../img/twitter.png" alt=""></a>
+					<a href=""><img src="../img/instagram.png" alt=""></a>
+					<a href=""><img src="../img/whatsapp.png" alt=""></a>
+					<a href=""><img src="../img/linkedin.png" alt=""></a>
+				</div>
+			</div>
+
+			<div class="callback-btn-box">
+				<button class="callback-btn"><img src="../img/smartphone-ringing.svg" alt=""></button>
+			</div>
+
+		</footer>
+
+		<!-- Модальное окно с корзиной -->
+	
+	<div class="bag-mask"></div>
+	<div class="modal-bag">
+		<div class="top">
+			<h2>Shopping Bag</h2>
+			<button class="close"><img src="../img/ico_close.png" alt=""></button>
+		</div>
+		<div class="shopping-list">
+			<div class="product-item">
+				<img src="../img/24.png" alt="">
+				<div>
+					<h4>Boyfriend T-Shirt</h4>
+					<p>Color: Orange</p>
+					<p>Size: UK 17</p>
+					<p>Quantity: 1</p>
+					<p>Order value: £390.25</p>
+					<a href="">Change details</a>
+					<button class="delete"><img src="../img/delete-icon.svg" alt=""></button>
+				</div>
+			</div>
+			<div class="product-item">
+				<img src="../img/20.png" alt="">
+				<div>
+					<h4>Straight Jeans with High Waist</h4>
+					<p>Color: Blue</p>
+					<p>Size: UK 18</p>
+					<p>Quantity: 1</p>
+					<p>Order value: £849.50</p>
+					<a href="">Change details</a>
+					<button class="delete"><img src="../img/delete-icon.svg" alt=""></button>
+				</div>
+			</div>
+			<div class="product-item">
+				<img src="../img/16.png" alt="">
+				<div>
+					<h4>Wool Dotted Jumper</h4>
+					<p>Color: Ecru</p>
+					<p>Size: UK 18</p>
+					<p>Quantity: 1</p>
+					<p>Order value: £400.75</p>
+					<a href="">Change details</a>
+					<button class="delete"><img src="../img/delete-icon.svg" alt=""></button>
+				</div>
+			</div>
+			<div class="product-item">
+				<img src="../img/04.png" alt="">
+				<div>
+					<h4>Sweater with Stripes</h4>
+					<p>Color: Beige</p>
+					<p>Size: UK 19</p>
+					<p>Quantity: 1</p>
+					<p>Order value: £176.35</p>
+					<a href="">Change details</a>
+					<button class="delete"><img src="../img/delete-icon.svg" alt=""></button>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-btn">
+			<button class="empty-bag">
+				<div class="tooltip">Empty the bag</div>
+				<img src="../img/delete-icon.svg" alt="">
+			</button>
+			<a href="order-page.html" class="checkout-button">Checkout</a>
+			<div>
+				<p>Total</p>
+				<span>£1 640.50</span>
+			</div>
+		</div>
+	</div>
+	</div>
+
+		<!-- МОДАЛЬНОЕ - ОБРАТНЫЙ ЗВОНОК -->
+
+		<div class="callback-modal">
+			<div class="callback-close"><img src="../img/ico_close.png" alt=""></div>
+			<div class="callback-text">
+				<p>Please fill out the form and we'll call you back!</p>
+				<form action="">
+					<input type="tel" placeholder="Mobile" required>
+					<input type="text" placeholder="Name" required>
+					<textarea name="" id="" cols="30" rows="7" placeholder="Comments"></textarea>
+					<button>Submit</button>
+				</form>
+			</div>
+		</div>
+
+<!-- КОНЕЦ WRAPPER -->
+	</div>
+
+<!-- КНОПКА ПРОКРУТКИ -->
+	<div class="scrolltop-btn">
+		<a href="#scroll"><img src="../img/up-arrow.svg" alt=""><span>TOP</span></a>
+	</div>
+
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+	<script src="../js/myscript.js"></script>
+	<script src="../js/wow.min.js"></script>
+	<script>
+    	wow = new WOW({
+    boxClass: 'wow',
+    animateClass: 'animated',
+    offset: 0,
+    mobile: false,
+    live: true
+})
+wow.init();
+	</script>
+</body>
+</html>
