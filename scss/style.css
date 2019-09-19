@@ -934,6 +934,7 @@ header {
     width: 120px;
     height: 40px;
     margin: 0 10px;
+    padding-right: 5px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -962,6 +963,7 @@ header {
   .slide-content button:last-child {
     width: 40px;
     height: 40px;
+    padding-right: 5px;
     font-family: "HelveticaNeueCyr";
     border-style: none;
     background: none;
