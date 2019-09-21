@@ -161,6 +161,6 @@ $(".dots-links a").click(function(e){
 //-----------------------------------------------------
 $(document).ready(function() {
 	$(window).on('load', function() {
-		$("#preloader").delay(2000).fadeOut(400);
+		$("#preloader").delay(3000).fadeOut(400);
 	});
 });
