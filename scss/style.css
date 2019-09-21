@@ -4004,12 +4004,6 @@ h1 {
       .sections-min .collaboration,
       .sections-min .franchise {
         height: 700px; } }
-    @media (max-width: 360px) {
-      .sections-min .concept,
-      .sections-min .collections,
-      .sections-min .collaboration,
-      .sections-min .franchise {
-        height: 800px; } }
   .sections-min .collections {
     display: -webkit-box;
     display: -ms-flexbox;
