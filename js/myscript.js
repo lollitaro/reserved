@@ -167,7 +167,7 @@ $(window).on('load', function() {
       $(".preloader").delay(2000).fadeOut(400);
         window.localStorage.setItem("preloader", "true");
     } else {
-      $(".preloader, .text-effect").css({"display":"none"});
+      $(".preloader").css({"display":"none"});
     }
   });
 //-----------------КНОПКИ BAG WISHLIST-----------------
