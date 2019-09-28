@@ -162,16 +162,14 @@ $(".dots-links a").click(function(e){
 	$("html, body").animate({scrollTop:position},900);
 });
 //-----------------------------------------------------
-$(document).ready(function($) {
-  $(window).on('load', function() {
+$(window).on('load', function() {
     if (!window.localStorage.getItem("preloader")) {
       $(".preloader").delay(2000).fadeOut(400);
         window.localStorage.setItem("preloader", "true");
     } else {
-    		$(".preloader").css({"display":"none"});
+      $(".preloader, .text-effect").css({"display":"none"});
     }
   });
-});
 //-----------------КНОПКИ BAG WISHLIST-----------------
 $(".buy-btn, .wish-btn").click(function(){
   $(this).toggleClass("pushed");
